@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>SlideShow</title>
+        <script type="text/javascript" src="../js/jquery-1.12.0.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.cycle.all.js"></script>
+        
+        <script type="text/javascript">
+            $(document).ready(Function() {
+                $('.Slide').cycle({ 
+                fx:    'zoom', 
+                sync:  false, 
+                delay: -2000 
+});
+                
+                
+            });
+        </script>
+        
+        <style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+                
+            }
+            
+            body {
+                background: #ccc;
+                
+            }
+            
+            .Slide{
+                margin-left: 200px;
+                margin-top: 100px;
+                text-align: center;
+            }
+            .Slide ul li{
+                list-style-type: none;
+            }    
+        
+        </style>
+    </head>
+    <body>
+        <div class="Slide">
+            <ul>
+                <li> <img src="../img/img1.jpg" alt="primeira Imagem" width="900" height="400" /></li>
+                <li> <img src="../img/img2.jpg" alt="segunda Imagem" width="900" height="400" /></li>
+                <li> <img src="../img/img3.jpg" alt="terceira Imagem" width="900" height="400" /></li>           
+            </ul>
+        
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
